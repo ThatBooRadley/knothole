@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Bailey Bignall
+
+nav:
+  - Blog
+    - blog/index.md
+
+plugins:
+  - optimize
+  #- social
+  - blog
