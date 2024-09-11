@@ -1,10 +1,23 @@
 site_name: Bailey Bignall
+site_url: https://thatbooradley.github.io/
+
+#locale: en
+#time_format: '%Y-%m-%d %H:%M:%S'
+#meta_time_format: '%Y-%m-%d %H:%M:%S'
 
 nav:
-  - Blog
-    - blog/index.md
+  - Home: index.md
+  - Writing:
+    - msf/index.md
+
+#theme:
 
 plugins:
-  - optimize
   #- social
-  - blog
+  - blogging:
+      theme:
+        name: card
+      locale: en
+      dirs:
+        - msf
+    # post_url_format: "{slug}"
