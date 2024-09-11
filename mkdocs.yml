@@ -2,7 +2,7 @@ site_name: Bailey Bignall
 site_url: https://thatbooradley.github.io/
 
 #locale: en
-#time_format: '%Y-%m-%d %H:%M:%S'
+#time_format: ''
 #meta_time_format: '%Y-%m-%d %H:%M:%S'
 
 nav:
@@ -18,6 +18,8 @@ plugins:
       theme:
         name: card
       locale: en
+      time_format: '%m-%Y'
+      meta_time_format: '%Y-%m-%d %H:%M:%S'
       dirs:
         - msf
     # post_url_format: "{slug}"
