@@ -10,7 +10,8 @@ nav:
   - Writing:
     - msf/index.md
 
-#theme:
+theme:
+    name: moonstone
 
 plugins:
   #- social
