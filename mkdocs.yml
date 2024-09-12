@@ -1,26 +1,35 @@
-site_name: Bailey Bignall
+site_name: Knothole
 site_url: https://thatbooradley.github.io/
-
-#locale: en
-#time_format: ''
-#meta_time_format: '%Y-%m-%d %H:%M:%S'
 
 nav:
   - Home: index.md
-  - Writing:
-    - msf/index.md
-
+  - About: about.md
+  - Itch.io: https://boo-radley.itch.io/
+  - Github: https://github.com/ThatBooRadley
+  - ...
+ 
 theme:
-    name: moonstone
+  name: material
+  font:
+    text: Trebuchet
+  logo: ghost.svg
+  favicon: ghost.ico
+  features:
+    - navigation.tabs
+    - navigation.footer
+  palette:
+    primary: brown
+    accent: lime
+
+
+markdown_extensions:
+  - smarty
+  - nl2br
+  - extra
+  - attr_list
+  - md_in_html
+  - toc:
+      toc_depth: 0
 
 plugins:
-  #- social
-  - blogging:
-      theme:
-        name: card
-      locale: en
-      time_format: '%m-%Y'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      dirs:
-        - msf
-    # post_url_format: "{slug}"
+  - awesome-pages
