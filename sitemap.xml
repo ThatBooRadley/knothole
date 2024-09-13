@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://thatbooradley.github.io/portfolio/</loc>
-         <lastmod>2024-09-12</lastmod>
+         <lastmod>2024-09-13</lastmod>
     </url>
     <url>
          <loc>https://thatbooradley.github.io/portfolio/about/</loc>
-         <lastmod>2024-09-12</lastmod>
+         <lastmod>2024-09-13</lastmod>
     </url>
     <url>
-         <loc>https://thatbooradley.github.io/portfolio/writing/msf/chapter-1/</loc>
-         <lastmod>2024-09-12</lastmod>
+         <loc>https://thatbooradley.github.io/portfolio/books/</loc>
+         <lastmod>2024-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://thatbooradley.github.io/portfolio/music/</loc>
+         <lastmod>2024-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://thatbooradley.github.io/portfolio/social-media/</loc>
+         <lastmod>2024-09-13</lastmod>
     </url>
 </urlset>
