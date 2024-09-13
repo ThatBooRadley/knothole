@@ -1,11 +1,13 @@
 site_name: Knothole
-site_url: https://thatbooradley.github.io/
+site_url: https://thatbooradley.github.io/portfolio
 
 nav:
   - Home: index.md
   - About: about.md
   - Itch.io: https://boo-radley.itch.io/
   - Github: https://github.com/ThatBooRadley
+  - Music: music.md
+  - Book Log: books.md
   - ...
  
 theme:
@@ -19,7 +21,7 @@ theme:
     - navigation.footer
   palette:
     primary: brown
-    accent: lime
+    accent: green
 
 
 markdown_extensions:
